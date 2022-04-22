@@ -9,7 +9,7 @@ public class Program {
         * private:sadece kendi sınıfının içinden erişilebilir
         * (default):aynı paket içerisinden erişilebilir
          */
-        Book b1=new Book();
+       Book b1=new Book();
          b1.setName("Kaşağı");
         b1.setAuthor("Ömer Seyfettin");
          b1.setPageNumber(-300);

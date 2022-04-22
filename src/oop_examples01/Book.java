@@ -5,6 +5,15 @@ public class Book {
     private String author;
     private int pageNumber;
 
+    public Book(String name, String author, int pageNumber) {
+        this.name = name;
+        this.author = author;
+        setPageNumber(pageNumber);// Burada sayfa numarasını korumaya almış olduk
+    }
+
+    public Book() {
+    }
+
     public int getPageNumber() {
         return pageNumber;
     }
